@@ -1,6 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+<<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IXL Math GG</title>
+    <style>
+        /* Header styling */
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: relative;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        /* Close button styling */
+        .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            background: #fff;
+            color: #333;
+            border: none;
+            border-radius: 50%;
+            width: 24px;
+            height: 24px;
+            text-align: center;
+            line-height: 24px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        /* Hide header */
+        .header.hide {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header section -->
+    <div class="header">
+        <button class="close-btn" onclick="closeHeader()">×</button>
+        <h1>ixlmathgg</h1>
+    </div>
+
+    <script>
+        // Function to hide the header
+        function closeHeader() {
+            document.querySelector('.header').classList.add('hide');
+        }
+    </script>
+
+</body>
+</html>
+>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Chat</title>
